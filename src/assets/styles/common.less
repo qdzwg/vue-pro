@@ -1,0 +1,60 @@
+.input-item {
+    display: flex;
+    height: 45px;
+    align-items: center;
+    // border-bottom: 1px solid #dadae1;
+    &.no-border {
+      border-bottom: none;
+    }
+    .input-title {
+      font-size: 14px;
+      color: #999;
+      width: 64px;
+    }
+    .input-text {
+      font-size: 18px;
+      color: #333;
+      border: none;
+      height: 25px;
+      line-height: 24px;
+      outline: none;
+    }
+    .input-text::-webkit-input-placeholder {
+      color: #666666;
+      font-size: 17px;
+    }
+    .input-text:-moz-placeholder {
+      color: #666666;
+      font-size: 17px;
+    }
+    .input-text:-ms-input-placeholder {
+      color: #666666;
+      font-size: 17px;
+    }
+  }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+  }
+  .clearfix {
+    display: inline-block;
+  }
+  .clearfix {
+    display: block;
+  }
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  .nowrap {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }

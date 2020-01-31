@@ -1,0 +1,134 @@
+[
+  {
+    "key": "icon-qingtianbaitian",
+    "name": "晴"
+  },
+  {
+    "key": "icon-qingzhuanduoyunbaitian",
+    "name": "多云"
+  },
+  {
+    "key": "icon-baoxue",
+    "name": "暴雨"
+  },
+  {
+    "key": "icon-baoxue",
+    "name": "大暴雨"
+  },
+  {
+    "key": "icon-baoxue",
+    "name": "特大暴雨"
+  },
+  {
+    "key": "icon-xiaoxue",
+    "name": "阵雪"
+  },
+  {
+    "key": "icon-xiaoxue",
+    "name": "小雪"
+  },
+  {
+    "key": "icon-zhongxue",
+    "name": "中雪"
+  },
+  {
+    "key": "icon-daxue",
+    "name": "大雪"
+  },
+  {
+    "key": "icon-baoxue",
+    "name": "暴雪"
+  },
+  {
+    "key": "icon-wu",
+    "name": "雾"
+  },
+  {
+    "key": "icon-dongyu",
+    "name": "冻雨"
+  },
+  {
+    "key": "icon-yintian",
+    "name": "阴"
+  },
+  {
+    "key": "icon-shachen",
+    "name": "沙尘暴"
+  },
+  {
+    "key": "icon-zhongyu",
+    "name": "小到中雨"
+  },
+  {
+    "key": "icon-dayu",
+    "name": "中到大雨"
+  },
+  {
+    "key": "icon-baoxue",
+    "name": "大到暴雨"
+  },
+  {
+    "key": "icon-baoxue",
+    "name": "暴雨到大暴雨"
+  },
+  {
+    "key": "icon-baoxue",
+    "name": "大暴雨到特大暴雨"
+  },
+  {
+    "key": "icon-zhongxue",
+    "name": "小到中雪"
+  },
+  {
+    "key": "icon-zhongxue",
+    "name": "中到大雪"
+  },
+  {
+    "key": "icon-daxue",
+    "name": "大到暴雪"
+  },
+  {
+    "key": "icon-yangchen",
+    "name": "浮尘"
+  },
+  {
+    "key": "icon-leizhenyu",
+    "name": "阵雨"
+  },
+  {
+    "key": "icon-shachen",
+    "name": "扬沙"
+  },
+  {
+    "key": "icon-shachen",
+    "name": "强沙尘暴"
+  },
+  {
+    "key": "icon-leizhenyu",
+    "name": "雷阵雨"
+  },
+  {
+    "key": "icon-leizhenyu",
+    "name": "雷阵雨并伴有冰雹"
+  },
+  {
+    "key": "icon-wumai",
+    "name": "霾"
+  },
+  {
+    "key": "icon-yujiaxue",
+    "name": "雨夹雪"
+  },
+  {
+    "key": "icon-xiaoyu",
+    "name": "小雨"
+  },
+  {
+    "key": "icon-zhongyu",
+    "name": "中雨"
+  },
+  {
+    "key": "icon-dayu",
+    "name": "大雨"
+  }
+]

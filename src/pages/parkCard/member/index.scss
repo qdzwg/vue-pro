@@ -1,0 +1,98 @@
+.card-member {
+    height: 100%;
+    width: 100%;
+    background: white;
+    &-header {
+        height: 175px;
+        padding: 0 15px;
+        background: url(../../../assets/images/card_member_bg.png) no-repeat right bottom;
+        background-size: 204px 175px;
+        position: relative;
+        &-face {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            top: 62px;
+            left: 15px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &-name {
+            width:230px;
+            height:28px;
+            font-size:20px;
+            font-family:PingFangSC-Semibold;
+            font-weight:600;
+            color:rgba(51,51,51,1);
+            line-height:28px;
+            @extend .online ;
+            position: absolute;
+            top: 82px;
+            left: 100px;
+        }
+        &-border {
+            width:345px;
+            height:2px;
+            border-bottom:1px solid rgba(230,230,230,.7);
+            top: 162px;
+            left: 15px;
+            position: absolute;
+        }
+    }
+    &-tabs {
+        @extend .flex;
+        &-item {
+            flex:1;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom:1px solid rgba(230,230,230,.7); 
+            img {
+                width: 40px;
+                height: 40px;
+                display: block;
+                margin: 0 auto;
+            }
+            p {
+                height:21px;
+                font-size:15px;
+                font-family:PingFangSC-Regular;
+                font-weight:400;
+                color:rgba(51,51,51,1);
+                line-height:21px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.card-other-list {
+    width:345px;
+    background:#fff;
+    border-radius:6px;
+    margin: 30px auto 0;
+    overflow: hidden;
+    .card-other-list-item {
+        width:100%;
+        height: 61px;
+        @extend .flex;
+        line-height: 61px;
+        justify-content: space-between;
+        &__title {
+            font-size:15px;
+            font-family:PingFangSC-Regular;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+        }
+        &__arraw {
+            font-size:15px;
+            font-family:PingFangSC-Regular;
+            font-weight:600;
+            color: #e6e6e6;
+        }
+    }
+    
+}

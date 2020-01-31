@@ -1,0 +1,95 @@
+.topay-banner {
+    width:345px;
+    min-height:140px;
+    max-height: 220px;
+    overflow: hidden;
+    background:rgba(216,216,216,1);
+    border-radius:6px;
+    overflow: hidden;
+    margin: 15px auto;
+    img {
+        width: 100%;
+    }
+}
+.order-info {
+    width:315px;
+    // height:216px;
+    background:rgba(255,255,255,1);
+    border-radius:6px;
+    margin: 20px auto 0;
+    padding: 0 15px;
+    &-item {
+        padding: 20px 0;
+        @extend .flex;
+        &.title {
+            font-size:20px;
+            font-family:PingFangSC-Semibold;
+            font-weight:600;
+            color:rgba(51,51,51,1);
+            line-height:28px;
+            border-bottom:1px solid rgba(230,230,230,0.6);
+        }
+        &__name {
+            width: 90px;
+            font-size:15px;
+            font-family:PingFangSC-Regular;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:21px;
+        }
+        &__value {
+            flex: 1;
+            font-size:15px;
+            font-family:PingFangSC-Semibold;
+            font-weight:600;
+            color:rgba(51,51,51,1);
+            line-height:21px;
+            &.pink {
+                color: #ABC5E1;
+            }
+        }
+    }
+}
+.order-notice {
+    width:345px;
+    // height:72px;
+    font-size:13px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    margin: 20px auto ;
+    color:#ABABAB;
+    line-height:18px;
+}
+.pay-footer {
+    height: 81px;
+    width: 375px;
+    .pay-footer-content {
+        background: white;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        @extend .flex;
+        width: 345px;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        .pay-footer-totalprice{
+            font-size:18px;
+            font-family:PingFangSC-Regular;
+            font-weight:400;
+            color:rgba(253,141,0,1);
+            line-height:26px;
+            em {
+                font-size: 18px
+            }
+            strong {
+                font-size: 26px;
+                margin-left: -5px;
+                font-family:  PingFangSC-Semibold;
+            }
+        }
+        .pay-footer-btn {
+            width: 182px;
+        }
+    }
+}

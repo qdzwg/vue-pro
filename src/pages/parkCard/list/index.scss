@@ -1,0 +1,88 @@
+.card-list {
+    padding: 20px 0;
+    &-item {
+        width:345px;
+        height:140px;
+        background:rgb(140, 243, 183);
+        border-radius:6px;
+        overflow: hidden;
+        margin: 0 auto 15px; 
+        position: relative;
+        img{
+            width:100%;
+            height:100%;
+            border-radius:6px;
+        }
+        &-logo {
+            position: absolute;
+            width:41px;
+            height:41px;
+            top: 15px;
+            left: 15px;
+            border-radius:50%;
+            border:2px solid #fff;
+            img{
+                width:100%;
+                height:100%;
+                border-radius:50%;
+            }
+        }
+        &-content {
+            position: absolute;
+            width: 245px;
+            top: 20px;
+            left: 70px;
+            &__title {
+                @extend .online;
+                font-size:15px;
+                font-family:PingFangSC-Regular;
+                font-weight:400;
+                color:rgba(255,255,255,1);
+                line-height:21px;
+            }
+            &__detail {
+                font-size:13px;
+                font-family:PingFangSC-Regular;
+                font-weight:400;
+                color:rgba(255,255,255,1);
+                line-height:18px;
+            }
+            &__number {
+                font-size:13px;
+                font-family:PingFangSC-Regular;
+                font-weight:400;
+                color:rgba(255,255,255,1);
+                line-height:18px;
+                margin-top: 15px;
+            }
+        }
+        &-qr {
+            position: absolute;
+            right: 0;
+            bottom: 0;      
+            width: 38px;
+            height: 38px;
+            border-radius: 76px 0 0;
+            background: #BBBBBB;
+            text-align: center;
+            line-height: 38px;
+            &.able {
+                background: linear-gradient(90deg,rgba(125,225,192,1),rgba(82,202,155,1));
+            }
+            .item-qr-pos {
+                height: 38px;
+                width: 38px;
+                position: relative;
+                .xx-icon {
+                    font-size: 20px;
+                    color: white;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 5px;
+                    line-height: 1;
+                }
+            }
+            
+        }
+    }
+}

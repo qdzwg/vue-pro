@@ -1,0 +1,50 @@
+$font-r: PingFangSC-Regular;
+$font-s: PingFangSC-Semibold;
+$color-main: rgba(79, 200, 152, 1); 
+
+
+
+// 常用组件
+.online {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.flex {
+    display: flex;
+    display: -webkit-flex;
+}
+
+
+
+// 公用样式
+.card-warp {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4
+} 
+.able-btn {
+    width:345px;
+    height:46px;
+    background:linear-gradient(146deg,rgba(135,230,201,1) 0%,rgba(79,200,152,1) 100%);
+    border-radius:23px;
+    text-align: center;
+    line-height: 46px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    font-size: 18px;
+    box-shadow:0px 4px 15px 0px rgba(135,230,201,1);
+} 
+.disable-btn {
+    width:345px;
+    height:46px;
+    border-radius:23px;
+    border:1px solid rgba(204,204,204,1);
+    font-size:18px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(187,187,187,1);
+    line-height:49px;
+    text-align: center;
+} 
